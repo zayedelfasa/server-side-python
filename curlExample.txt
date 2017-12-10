@@ -1,0 +1,8 @@
+curl -X POST "https://api.pometera.id/smsnotif/token" -H "X-Pometera-Api-Key: b925096d-d86f-4d29-b8ee-a39f49d66bd8" -H "Content-Type: application/x-www-form-urlencoded" --data "grant_type=client_credentials"
+
+curl -X POST "https://api.pometera.id/smsnotif/messages" -H "X-Pometera-Api-Key: b925096d-d86f-4d29-b8ee-a39f49d66bd8" -H "Accept: application/json" -H "Content-Type: application/x-www-form-urlencoded" -H "Authorization: Bearer c8baa70a93fb0850df5a69db477744c2" --data "msisdn=081232352834" --data "content=hay kakak audy sayang, aku maba, lagi ngapain nih.. aku kangen..."
+
+
+login OTP
+API-KEY : ddad73d3-dadd-489b-8a0e-6804a4d12035
+
